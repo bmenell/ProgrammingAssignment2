@@ -10,9 +10,9 @@ makeCacheMatrix <- function(x = matrix()) {
   ## establish the variable m and empty it
   m <- NULL                                      
   
-  ####################################################
-  ## SET (our first sub function)                    #
-  ####################################################
+  ########################################################
+  ## SET (our first sub function)                        #
+  ########################################################
   set <- function(y) {
     x <<- y              ## set x globally to the passed value y
     m <<- NULL           ## set m globally to NULL
